@@ -5,7 +5,7 @@ module.exports = {
       name: `Hassen Taidirt`,
       summary: `who lives in Paris 🇫🇷 and uses Machine Learning to build useful things.`,
     },
-    description: `A glog about AL/ML projects and tools for curious geeks.`,
+    description: `A blog showcasing AL/ML projects and tools for curious geeks.`,
     siteUrl: `https://aiforgeeks.com/`,
     social: {
       twitter: `htaidirt`,
@@ -79,7 +79,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-disqus`,
       options: {
-        shortname: `htaidirt`,
+        shortname: `aiforgeeks`,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

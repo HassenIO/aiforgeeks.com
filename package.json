@@ -1,7 +1,7 @@
 {
   "name": "ai-for-geeks-the-blog",
   "private": true,
-  "description": "A glog about AL/ML projects and tools for curious geeks",
+  "description": "A blog showcasing AL/ML projects and tools for curious geeks",
   "version": "0.1.0",
   "author": "Hassen Taidirt",
   "dependencies": {
