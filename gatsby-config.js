@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `AI for Geeks`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Hassen Taidirt`,
+      summary: `who lives in Paris 🇫🇷 and uses Machine Learning to build useful things.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    description: `A glog about AL/ML projects and tools for curious geeks.`,
+    siteUrl: `https://aiforgeeks.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `htaidirt`,
     },
   },
   plugins: [
@@ -74,6 +74,12 @@ module.exports = {
       resolve: `gatsby-plugin-typography`,
       options: {
         pathToConfigModule: `src/utils/typography`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+        shortname: `htaidirt`,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
